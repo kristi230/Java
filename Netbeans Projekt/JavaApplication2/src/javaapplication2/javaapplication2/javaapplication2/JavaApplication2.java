@@ -10,10 +10,10 @@ public class JavaApplication2 {
     
 
     static String Censor(String text, String toChange, String newWord) {
+    
+        text = text.replaceAll(toChange, newWord);
         
-        String toReturn = text;
-
-        return toReturn;
+        return text;
     }
     
 }

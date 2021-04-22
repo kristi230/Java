@@ -1,0 +1,6 @@
+package Human;
+
+public class newClas {
+
+    String Man;
+}
