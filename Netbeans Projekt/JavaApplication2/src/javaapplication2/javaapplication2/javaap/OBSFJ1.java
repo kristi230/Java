@@ -9,7 +9,7 @@ public class OBSFJ1 {
         first.setName("Gyula");
 
         System.out.println(first.getName() == null ? "Üres" : "Nem üres: " + first.getName());
-         
+               
     }
 
 }
