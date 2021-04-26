@@ -1,9 +1,17 @@
 package javaap;
 
-import jdk.javadoc.internal.doclets.toolkit.OverviewElement;
+public class Cat extends Animal implements Pet {
 
-public class Cat extends Feline implements Pet {
-    
+    public Cat() {
+        this.setName("Robi");
+    }
+  
+    public Cat(String Name, int weight){
+        this.setName(Name);
+        this.setWeight(weight);
+    }    
+
+
     @Override
     public void layDown() {
         System.out.println("Down");
