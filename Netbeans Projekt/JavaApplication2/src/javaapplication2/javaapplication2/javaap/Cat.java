@@ -11,6 +11,11 @@ public class Cat extends Animal implements Pet {
         this.setWeight(weight);
     }    
 
+    public Cat(int weight ,String Name){
+        this.setName(Name);
+        this.setWeight(weight);
+    }   
+
 
     @Override
     public void layDown() {
