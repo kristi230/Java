@@ -5,7 +5,7 @@ public class Cat extends Animal implements Pet {
     public Cat() {
         this.setName("Robi");
     }
-  
+   
     public Cat(String Name, int weight){
         this.setName(Name);
         this.setWeight(weight);
@@ -20,7 +20,6 @@ public class Cat extends Animal implements Pet {
     @Override
     public void layDown() {
         System.out.println("Down");
-        
     }
 
     @Override
